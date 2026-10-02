@@ -1,0 +1,64 @@
+# -----------------------------
+# Python
+# -----------------------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+.env.save
+.env.local
+
+# -----------------------------
+# Generated / Demo Data
+# -----------------------------
+data/inbound/*.csv
+!data/inbound/.gitkeep
+
+# -----------------------------
+# React / Vite
+# -----------------------------
+ui/node_modules/
+ui/dist/
+ui/.vite/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+logs/
+
+# -----------------------------
+# macOS
+# -----------------------------
+.DS_Store
+
+# -----------------------------
+# IDE
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# Temporary / Backup Files
+# -----------------------------
+*~
+*.bak
+*.tmp
+
+app/main-backup.py
+app/services/ai_assistant-backup.py
+ui/src/App-chat-backup.css
